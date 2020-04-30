@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Uso">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="INSTRUCCIONES DE USO" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="MENU"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/agregar" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Al entrar por esta opción, agregaremos un nuevo registro de una persona, al cual se le asociara un equipo asignado, se solicitaran los campos completos, tanto los datos de la persona responsable como los datos del equipo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="77dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/buscar" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuando seleccionamos esta opción, se muestra las personas las cuales tienen asignado un equipo y sus datos de identifcación" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:text="Desarrollado por Marlon Julian Martinez-Inventario de Activos- Version 0.001-™ Todos los derechos reservados "
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
